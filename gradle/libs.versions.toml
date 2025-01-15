@@ -16,7 +16,7 @@ fragmentKtx = "1.8.5"
 glideVersion = "4.16.0"
 googlePayVersion = "19.4.0"
 googleServices = "4.4.2"
-gradle = "8.8.0"
+gradle = "8.7.3"
 hamcrest = "3.0"
 installreferrer = "2.2"
 jsoup = "1.18.3"
@@ -48,6 +48,7 @@ workRuntimeKtx = "2.10.0"
 composeBom = "2024.12.01"
 composeActivity = "1.9.3"
 composeViewModel = "2.8.7"
+steadyscreenlib = "2.0"
 
 
 [libraries]
@@ -120,6 +121,7 @@ compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 compose-activity = { module = "androidx.activity:activity-compose", version.ref = "composeActivity" }
 compose-view-model = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "composeViewModel" }
 compose-test = { module = "androidx.compose.ui:ui-test-junit4" }
+steadyscreenlib = { group = "io.github.sublimis.steadyscreen", name = "steadyscreen-lib", version.ref = "steadyscreenlib" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "gradle" }
